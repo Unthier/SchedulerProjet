@@ -1,0 +1,16 @@
+POST http://app:8080/api/games
+Content-Type: application/json
+
+{
+    "name": "test",
+    "cover": null,
+    "studio": { "id": 2 }
+}
+
+{
+    "name": "studioName",
+    "games": [
+        { "id": 2 },
+        { "id": 3 },
+    ]
+}
